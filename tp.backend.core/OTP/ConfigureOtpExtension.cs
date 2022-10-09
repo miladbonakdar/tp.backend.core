@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace tp.shared.OTP;
+namespace tp.backend.core.OTP;
 
 public static class ConfigureOtpExtension
 {

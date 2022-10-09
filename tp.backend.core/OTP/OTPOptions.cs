@@ -1,4 +1,4 @@
-namespace tp.shared.OTP;
+namespace tp.backend.core.OTP;
 
 public class OtpOptions
 {

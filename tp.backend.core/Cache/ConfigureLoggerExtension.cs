@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace tp.shared.Cache;
+namespace tp.backend.core.Cache;
 
 public static class ConfigureCacheModuleExtension
 {

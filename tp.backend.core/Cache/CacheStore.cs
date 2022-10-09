@@ -1,8 +1,8 @@
 ﻿using System.Text.Json;
 using Serilog;
-using tp.shared.Exceptions;
+using tp.backend.core.Exceptions;
 
-namespace tp.shared.Cache;
+namespace tp.backend.core.Cache;
 
 internal class CacheStore : ICacheStore
 {

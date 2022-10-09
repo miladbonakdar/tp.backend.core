@@ -1,6 +1,6 @@
 ﻿using StackExchange.Redis;
 
-namespace tp.shared.Cache;
+namespace tp.backend.core.Cache;
 
 internal interface IRedisMultiplexer
 {

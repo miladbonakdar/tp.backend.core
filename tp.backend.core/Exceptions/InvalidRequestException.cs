@@ -1,6 +1,4 @@
-using tp.shared.Exceptions;
-
-namespace SharedKernel.Exceptions;
+namespace tp.backend.core.Exceptions;
 
 public class InvalidRequestException : ExceptionBase
 {

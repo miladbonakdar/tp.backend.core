@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace tp.shared;
+namespace tp.backend.core;
 
 public class ExceptionResult
 {

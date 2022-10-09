@@ -1,9 +1,9 @@
 using Microsoft.Extensions.Options;
 using Serilog;
-using tp.shared.Cache;
-using tp.shared.Exceptions;
+using tp.backend.core.Cache;
+using tp.backend.core.Exceptions;
 
-namespace tp.shared.OTP;
+namespace tp.backend.core.OTP;
 
 internal class OtpService : IOtpService
 {

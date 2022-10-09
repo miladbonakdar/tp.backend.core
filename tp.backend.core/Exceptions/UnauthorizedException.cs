@@ -1,4 +1,4 @@
-﻿namespace tp.shared.Exceptions;
+﻿namespace tp.backend.core.Exceptions;
 
 public class UnauthorizedException : ExceptionBase
 {

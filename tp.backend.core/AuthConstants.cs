@@ -1,4 +1,4 @@
-namespace tp.shared;
+namespace tp.backend.core;
 
 public class AuthConstants
 {

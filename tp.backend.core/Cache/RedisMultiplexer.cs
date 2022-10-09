@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using StackExchange.Redis;
 
-namespace tp.shared.Cache;
+namespace tp.backend.core.Cache;
 
 internal class RedisMultiplexer : IRedisMultiplexer
 {

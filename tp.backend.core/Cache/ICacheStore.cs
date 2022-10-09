@@ -1,4 +1,4 @@
-﻿namespace tp.shared.Cache;
+﻿namespace tp.backend.core.Cache;
 
 public interface ICacheStore
 {

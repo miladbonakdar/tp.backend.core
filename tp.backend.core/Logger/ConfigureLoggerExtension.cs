@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Events;
 
-namespace tp.shared.Logger;
+namespace tp.backend.core.Logger;
 
 public static class ConfigureLoggerExtension
 {
