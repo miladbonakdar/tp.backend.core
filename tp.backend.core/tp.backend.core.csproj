@@ -8,7 +8,7 @@
         <Authors>milad bonakdar</Authors>
         <PackageDescription>tp core package for backend applications</PackageDescription>
         <RepositoryUrl>https://github.com/miladbonakdar/tp.backend.core</RepositoryUrl>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.3</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>

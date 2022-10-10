@@ -41,8 +41,11 @@ internal class OtpService : IOtpService
     {
         try
         {
-            var item = await _store.Get<CacheObject>(GenerateKey(key, type));
-            return item.Token.Equals(otpToken);
+            var localKey = GenerateKey(key, type);
+            var item = await _store.Get<CacheObject>(localKey);
+            var res = item.Token.Equals(otpToken);
+            if (res) await _store.RemoveAsync(localKey);
+            return res;
         }
         catch (NotFoundException nf)
         {
