@@ -5,6 +5,7 @@ public enum OtpType
     Register,
     Login,
     Validate,
+    ForgetPassword,
     CustomAction
 }
 
