@@ -51,6 +51,7 @@ internal class CacheStore : ICacheStore
     {
         try
         {
+            if (toBeCached == null) throw new InvalidDataException("Cache data is null");
             var objectString = JsonSerializer.Serialize(toBeCached, _serializerOptions);
             await _multiplexer.Db.StringSetAsync(key, objectString,
                 duration == CacheDuration.Eternal
